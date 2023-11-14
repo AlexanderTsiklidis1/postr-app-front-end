@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
-import SidebarLeft from '../Components/SidebarLeft';
-import SidebarRight from '../Components/SidebarRight';
 import Footer from '../Components/Footer';
 import Edit from '../Pages/Edit';
+import SidebarLeft from '../Components/SidebarLeft';
+import SidebarRight from '../Components/SidebarRight';
 import FourOFour from '../Pages/FourOFour';
 import Home from '../Pages/Home';
 import Index from '../Pages/Index';
