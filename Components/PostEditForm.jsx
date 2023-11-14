@@ -72,14 +72,6 @@ function PostEditForm() {
               placeholder="Message for the Post"
               required
             />
-            <label htmlFor="album">Album</label>
-            <input
-              id="album"
-              type="text"
-              value={song.album}
-              placeholder="Name of the album"
-              onChange={handleTextChange}
-            />
             <label htmlFor="postPicture">Post Picture</label>
             <input
               id="postPicture"

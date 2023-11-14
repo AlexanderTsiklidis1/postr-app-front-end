@@ -10,7 +10,6 @@ function Post({ post, index }) {
                     <span className="user_name">{post.username}</span>
                 </div>
                 <div className="card-body">
-                    {post.post_pic ? (<img className="card-img-top" src={post.post_pic} />) : null}
                     <p class="card-text">{post.postMessage}</p>
                 </div>
             </div>
